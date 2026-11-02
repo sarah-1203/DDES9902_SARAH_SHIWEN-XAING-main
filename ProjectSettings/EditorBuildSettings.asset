@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/__My Project/My Project Example Scene A.unity
+    guid: c32d0ec56a7a80e468e6f115671378e7
+  - enabled: 0
+    path: Assets/__My Project/My Project Example Scene B.unity
+    guid: 623571e0647424e48b43a84af6530dd9
+  - enabled: 0
+    path: Assets/EZPZ b) Examples/a) Standalone Example Scenes/01 Item Cycling.unity
+    guid: 7ecc1225d74d4454aad820312b981b7c
+  - enabled: 0
+    path: Assets/__My Project/plant.unity
+    guid: 2081f8baf85dd4f85b5312df4b8f5030
+  - enabled: 1
+    path: Assets/__My Project/plant -assesment1.unity
+    guid: 44b0b909e22ce46159b12273700a0bcf
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3c28928f4ba463b408fa3dad31f078ec, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2d48f0579e33c5e40b9ae18996da130b, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 572d218a33398e646b4185c25afc1f0c, type: 2}

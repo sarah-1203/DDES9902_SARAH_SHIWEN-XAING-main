@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 94803669153b2b8439fb7045d89aa513
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267379
+  packageName: 'Rustic Series : a Pot'
+  packageVersion: 1.0
+  assetPath: Assets/NzBulletStudio/NZ Simple LookDev/Scripts/NzScopeManger.cs
+  uploadId: 618592
