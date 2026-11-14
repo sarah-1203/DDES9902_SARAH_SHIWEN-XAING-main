@@ -941,10 +941,11 @@ PrefabInstance:
       value: -89.225
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2304173210996454519, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9182882645681806097, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
-      insertIndex: 1
+      insertIndex: 0
       addedObject: {fileID: 1360271058}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6086266383777699628, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
@@ -1120,8 +1121,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6622186
+      objectReference: {fileID: 0}
+    - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.13041905
+      objectReference: {fileID: 0}
+    - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4144773
       objectReference: {fileID: 0}
     - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1129,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3484838753354877288, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1156,8 +1165,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3754643101581779056, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2244
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754643101581779056, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.144
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 3754643101581779056, guid: 2753221a8a8499949a2ba74123b9ac78, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4728,7 +4741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_text
-      value: 2kg
+      value: PotMix
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4736,7 +4749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995008, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_Name
-      value: Button:2kg
+      value: Soil Option - PotMix
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995011, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_RootOrder
@@ -5983,7 +5996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_text
-      value: 10kg
+      value: Clay
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -5991,7 +6004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995008, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_Name
-      value: Button:10kg
+      value: Soil Option - Clay
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995011, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_RootOrder
@@ -6125,7 +6138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_text
-      value: 0.5kg
+      value: Sand
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -6133,7 +6146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995008, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_Name
-      value: Button:0.5kg
+      value: Soil Option - Sand
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995011, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_RootOrder
@@ -6380,7 +6393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Planting task\n1. Choose one plant and place it in the pot.\n2. Choose 2 kg of soil. Pick up the shovel and place the soil into the pot. Wait for \u201CSoil added\u201D.\n3. Choose the requested water and pour it onto the plant.\nWhen \u201CPlanting complete\u201D appears, choose Restart to begin again. "
+  m_text: "Planting task\n1. Choose one plant and place it in the pot.\n2. Choose soil for your plant. Pick up the shovel and place it into the pot. Wait for \u201CSoil added\u201D.\n3. Choose the requested water and pour it onto the plant.\nWhen \u201CPlanting complete\u201D appears, choose Restart to begin again. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6766,9 +6779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '2 kg selected.
-
-    Pick up the shovel and add the soil to the pot.'
+  m_text: "correct\uFF01add the soil to the pot."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7800,7 +7811,7 @@ GameObject:
   - component: {fileID: 1667839518}
   - component: {fileID: 2026111001}
   m_Layer: 0
-  m_Name: soil choose
+  m_Name: Planting Flow Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8896,7 +8907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_text
-      value: 4kg
+      value: Humus
       objectReference: {fileID: 0}
     - target: {fileID: 8157043945851421630, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -8904,7 +8915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995008, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_Name
-      value: Button:4kg
+      value: Soil Option - Humus
       objectReference: {fileID: 0}
     - target: {fileID: 8157043946459995011, guid: 89f7238d42a1e4944903f82e2200a073, type: 3}
       propertyPath: m_RootOrder
@@ -9451,8 +9462,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: db50e4b8124dcf64cb051c5ababee92c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5296918
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: db50e4b8124dcf64cb051c5ababee92c, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.69011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: db50e4b8124dcf64cb051c5ababee92c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6807245
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: db50e4b8124dcf64cb051c5ababee92c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9983,7 +10002,7 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: 
+  hoverText: Mushrooms generally need a moist, warm, well-ventilated environment, though the ideal temperature and humidity depend on the species. They grow on a clean growing medium rather than ordinary soil, which should be kept suitably moist.
   customTouchDistance: -1
   heldText: 
   restrictSecondaryToHeldOnly: 0
@@ -10177,7 +10196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "STEP 2 | MATCH THE SOIL WEIGHT \nUSE  A SHOVEL TO PICK UP THE SOIL "
+  m_text: "STEP 2 | CHOOSE THE RIGHT SOIL \nUSE  A SHOVEL TO PICK UP THE SOIL "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
